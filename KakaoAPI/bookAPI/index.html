@@ -52,7 +52,7 @@
                 method: 'GET',
                 url: 'https://dapi.kakao.com/v3/search/book',
                 data: { query: searchInput, page: page },
-                headers: { Authorization: "카카오 restAPI 인증키" }
+                headers: { Authorization: "KakaoAK " + process.env.KAKAO_API_KEY }
             })
                 .done(function (response) {
                     var books = response.documents;
