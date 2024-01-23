@@ -3,8 +3,6 @@
     1) Apache
     2) MySQL
     3) PHP
-  - HTML
-  - CSS
   - MySQL Workbench
   - phpStorm
 
